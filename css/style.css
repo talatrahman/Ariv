@@ -1,0 +1,457 @@
+/*Start Header*/
+body{
+	background-color: #F4F6F7!Important;
+	padding: 0;
+	margin: 0;
+}
+input:focus ,select:focus{
+        outline: none;
+}
+.container-wrap{
+	max-width: 1232px;
+	width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+#navbarSupportedContent{
+	display: flex;
+    justify-content: flex-end;
+}
+.item-property:hover {
+	background-color: #F04259;
+	background-position: left bottom;
+}
+.navbar-collapse ul > li:last-child {
+ 	background: none;
+ 	background-position: none;
+ 	padding: 8px 0px;
+ }
+.nav-text:hover {
+	color: #ffffff!important;
+}
+.auto-move{
+	margin-left: auto;
+}
+.item-property{
+	margin-right: 25px;
+    background: linear-gradient(to right, #F04259 50%, #F4F6F7 50%);
+    background-size: 300% 150%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    padding: 0 15px;
+}
+.nav-text{
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	color: #3A3B35!important;
+}
+.book-text{
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+.booking_button{
+	color: #F4F6F7;
+	background: #F04259;
+	border: 0px;
+	padding: 5.5px 20px;
+	border: 1px solid;
+	text-decoration: none;
+}
+.booking_button:hover {
+	color: #F04259;
+	background: #F4F6F7;
+	border: 1px solid #F04259;
+	padding: 5.5px 20px;
+}
+/*end header*/
+/*footer*/
+.f-back-g{
+	background-color: #E1E3E4;
+}
+.f-back-g2{
+	background-color: #F04259;
+}	
+.social-m{
+	display: flex;
+}
+ul li {
+	list-style: none;
+}
+.social-m li{
+	background-color: #ffffff;
+	/*padding: 8px 12px;*/
+	margin-right: 12px;
+	border-radius: 50%;
+}
+.icon-size-insta {
+	padding: 10px;
+}
+.icon-size-fb {
+	padding: 8.3px 12.85px;
+}
+.icon-size-ln {
+	padding: 10px;
+}
+
+.icon-size-tw {
+	padding: 10px;
+}
+
+.ariv-footer-text1{
+	font-family: 'IBM Plex Sans';
+	font-style: italic;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	color: #3A3B35;
+	opacity: 0.8;
+	margin: 24px 0;
+}
+.ariv-footer-text2{
+	font-family: 'IBM Plex Sans';
+	font-style: italic;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 24px;
+	color: #3A3B35;
+	margin: 24px 0px 10px 0px;
+}
+.ariv-contact{
+	font-family: 'IBM Plex Sans';
+	font-style: italic;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 24px;
+	color: #3A3B35;
+	margin: 20px 0px 10px 0px;
+}
+.ariv-phone a{
+	text-decoration: none;
+	color: #3A3B35;
+}
+.ariv-email a{
+	text-decoration: none;
+	color: #F04259;
+}
+.f-list-item-text{
+	font-family: 'IBM Plex Sans';
+	font-style: italic;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 10px 0px 10px 0px;
+}
+.f-list-item-text li a{
+	color: #F04259;
+	text-decoration: none;
+}
+div#\#copy_right {
+    display: flex;
+    align-items: center;
+}
+.copy-text{
+	margin-bottom: 0px;
+	color: #F4F6F7;
+}
+.social-m{
+	margin-top: 1rem;
+}
+#f-row{
+	padding-top: 20px;
+}
+/*footer end*/
+
+/*Instantly home Section Start*/
+.Instantly-home{
+	background: url("../image/Ariv-Intro-1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 265px 0;
+}
+.text-instant{
+	font-family: 'IBM Plex Sans';
+	font-style: italic;
+	font-weight: 300;
+	font-size: 100px;
+	line-height: 100px;
+	color: #F4F6F7;
+	padding-bottom: 111px;
+	letter-spacing: 0.5px;
+}
+.text-align {
+    /*padding-top: 204px;*/
+}
+
+.right-align{
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	background-color: #F04259;
+	float: right;
+    clear: both;
+    margin-top: -64px;
+}
+.bubble-text{
+	font-family: 'IBM Plex Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #F4F6F7;
+	padding-top: 28px;
+}
+/*Instantly home Section END*/
+
+
+/*search filter Start*/
+.search-box{
+	margin-top: 95px;
+}
+.sec-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 33.33%;
+}
+.sec {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 100%;
+}
+#location ,#no-of-guest ,#datepicker{
+	width: 80%;
+	padding: 8px;
+	border: 1px solid rgba(58, 59, 53, 0.32);
+	border-radius: 4px;
+}
+#search {
+	width: 30%;
+	padding: 8px;
+	background-color: #F04259;
+	color: #ffffff;
+	border: 1px solid #F04259;
+	font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+}
+#search:hover {
+    color: #F04259;
+    background: #F4F6F7;
+    border: 1px solid #F04259;
+}
+.check-text{
+	font-family: 'IBM Plex Sans';
+	font-style: italic;
+	font-weight: 600;
+	font-size: 44px;
+	line-height: 48px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #3A3B35;
+	margin-bottom: 30px;
+}
+.filter-form{
+	margin-bottom: 48px;
+}
+.check-text2{
+	font-family: 'IBM Plex Sans';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 24px;
+	text-align: center;
+	color: #3A3B35;
+	margin-bottom: 76px;
+}
+/*Search filter End*/
+
+/*7 Reasons Start*/
+
+.seven-reasons-back-g{
+	background: url("../image/Image Shape.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 0;
+}
+.seven-Reasons{
+	padding-top: 230px;
+    padding-bottom: 150px;
+}
+.reasons-text{
+	font-family: 'IBM Plex Sans';
+	font-style: italic;
+	font-weight: 600;
+	font-size: 44px;
+	line-height: 48px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #F4F6F7;
+	padding-bottom: 60px;
+}
+.reasons-details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    align-content: center;
+    max-width: 100%;
+}
+.reason {
+    width: 25%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.reason-inside-text{
+	font-family: 'IBM Plex Sans';
+	font-style: italic;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 24px;
+	color: #F4F6F7;
+
+}
+.icon-gap{
+	padding-bottom: 20px;
+}
+/*7 Reasons End*/
+
+
+
+/*Arrive and start living Start*/
+.arive-full-section{
+    align-items: center;
+    margin: 124px 0px!important;
+
+}
+.box-head-text{
+	font-family: 'IBM Plex Sans';
+	font-style: italic;
+	font-weight: 600;
+	font-size: 44px;
+	line-height: 48px;
+	letter-spacing: 0.5px;
+	color: #3A3B35;
+}
+.box-small-text{
+	font-family: 'IBM Plex Sans';
+	font-style: italic;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 24px;
+	color: #3A3B35;
+}
+.Learn-more-button{
+	padding: 21.5px 48px 19.5px 48px;;
+	background: #F04259;
+	color: #ffffff;
+	border: 0px;
+	font-family: 'IBM Plex Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 27px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	border: 1px solid #F04259;
+	margin: 48px 0;
+}
+.Learn-more-button:hover {
+    color: #F04259;
+    background: #fff;
+    border: 1px solid #F04259;
+}
+.line{
+	width: 40px;
+	height: 2px;
+	background-color: #F04259;
+	margin: 16px 0;
+}
+/*Arrive and start living end*/
+
+/*your-living-room-full-section Start*/
+.your-living-room-full-section{
+	flex-direction: row-reverse;
+    align-items: center;
+    margin: 124px 0px!important;
+}
+/*your-living-room-full-section End*/
+
+/*Welcome-Comfort zone Start*/
+.welcome-comfort-zone{
+	background: url("../image/Comfort-zone.png");
+	padding: 150px 0;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.contain-section {
+    text-align: center;
+    padding-top: 0%;
+}
+.comfortZone-text{
+	font-family: 'IBM Plex Sans';
+	font-style: italic;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 45px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #F04259;
+	margin: 24px 0px;
+}
+.confort-small-text{
+	font-family: 'IBM Plex Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #3A3B35;
+	margin: 24px 0px;
+}
+/*welcome-comfort-zone end*/
+
+/*YOUR GATEWAY TO URBAN SWITZERLAND Start*/
+.gateway-urban-section{
+    align-items: center;
+    margin: 124px 0px!important;
+}
+
+/*YOUR GATEWAY TO URBAN SWITZERLAND  End*/
+
+/*sustainability-from Start*/
+.sustainability-from{
+	align-items: center;
+    margin: 124px 0px!important;
+}
+.justification-left{
+	padding-left: 90px!important;
+}
+.justification-right{
+	padding-right: 60px;
+}
+.sustainability-right{
+	padding-right: 20px;
+}
+
+/*sustainability-from End*/

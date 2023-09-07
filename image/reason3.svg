@@ -1,0 +1,14 @@
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.75 18.75H15.75" stroke="#F4F6F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20.25 14.25H35.25" stroke="#F4F6F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M24.75 14.25L26.25 11.25" stroke="#F4F6F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29.25 14.25L30.75 11.25" stroke="#F4F6F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6.75 18.75H5.25C4.85218 18.75 4.47064 18.592 4.18934 18.3107C3.90804 18.0294 3.75 17.6478 3.75 17.25L3.75 14.25H8.25V17.25C8.25 17.6478 8.09196 18.0294 7.81066 18.3107C7.52936 18.592 7.14782 18.75 6.75 18.75V18.75Z" stroke="#F4F6F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12.75 0.75V6.75" stroke="#F4F6F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23.25 6.75V0.75" stroke="#F4F6F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2.25 0.75C1.85218 0.75 1.47064 0.908035 1.18934 1.18934C0.908035 1.47064 0.75 1.85218 0.75 2.25V6.75H35.25V2.25C35.25 1.85218 35.092 1.47064 34.8107 1.18934C34.5294 0.908035 34.1478 0.75 33.75 0.75H2.25Z" stroke="#F4F6F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23.25 35.25V26.25" stroke="#F4F6F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12.75 26.25V35.25" stroke="#F4F6F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M33.75 35.25C34.1478 35.25 34.5294 35.092 34.8107 34.8107C35.092 34.5294 35.25 34.1478 35.25 33.75V26.25H0.75V33.75C0.75 34.1478 0.908035 34.5294 1.18934 34.8107C1.47064 35.092 1.85218 35.25 2.25 35.25H33.75Z" stroke="#F4F6F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2.25 23.25H33.75C34.1478 23.25 34.5294 23.408 34.8107 23.6893C35.092 23.9706 35.25 24.3522 35.25 24.75V26.25H0.75V24.75C0.75 24.3522 0.908035 23.9706 1.18934 23.6893C1.47064 23.408 1.85218 23.25 2.25 23.25V23.25Z" stroke="#F4F6F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

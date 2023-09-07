@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ariv Home page </title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+	<header>
+		<div class="container-wrap">
+			<nav class="navbar navbar-expand-lg navbar-light navbar-collapse">
+			  <div class="container-fluid">
+			    <div>
+			    	<img class="img-fluid" src="image/logo.svg">
+			    </div>
+			     <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+		      		<!-- <span class="navbar-toggler-icon"></span> -->
+		      		<span class="toggler-icon top-bar"></span>
+		      		<span class="toggler-icon middle-bar"></span>
+		      		<span class="toggler-icon bottom-bar"></span>
+		    	 </button>
+			    <div class="collapse navbar-collapse" id="toggleMobileMenu">
+			      <ul class="nav navbar-nav auto-move mb-2 mb-lg-0">
+			        <li class="nav-item item-property">
+			          <a class="nav-link nav-text" href="#">Experience</a>
+			        </li>
+			        <li class="nav-item item-property">
+			          <a class="nav-link nav-text" href="#">Suites</a>
+			        </li>
+			        <li class="nav-item item-property">
+			          <a class="nav-link nav-text" href="#">Furnishing</a>
+			        </li>
+			        <li class="nav-item item-property">
+			          <a class="nav-link nav-text" href="#">about Us</a>
+			        </li>
+			        <li class="nav-item item-property">
+			          <a class="nav-link nav-text" href="#">Contact</a>
+			        </li>
+			        <li class="nav-item item-property book-text">
+			         	<a class="booking_button" href="#">BOOK NOW</a>
+			        </li>
+			      </ul>
+			    </div>
+
+			  </div>
+			</nav>
+		</div>
+	</header>
+
+	<section>
+		<div class="Instantly-home">
+			<div class="container-wrap">
+				<div class="text-align">
+					<h1 class="text-instant">INSTANTLY<br>AT HOME</h1>
+				</div>
+			</div>
+		</div>
+		<div class="container-wrap">
+			<div class="right-align">
+				<div class="bubble-text">
+					<p>15%<br> early bird discount*</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="search-box">
+		<div class="container-wrap">
+			<div>
+				<h1 class="check-text">CHECK AVAILABILITY (FROM JUNE 2022)</h1>
+			</div>
+		  <div class="filter-form">
+			<form action="#" method="post"> 
+				<div class="sec">
+					<div class="sec-1">
+					  <label for="location">Where</label>
+					  <select id="location" name="location">
+					    <option value="all-locations">All Locations</option>
+					    <option value="ariv-basel">Ariv Basel</option>
+					    <option value="bern">Bern</option>
+					    <option value="montreus">Montreus</option>
+					    <option value="thun">Thun</option>
+					  </select>
+				    </div>
+				    <div class="sec-1">
+					  <label for="no-of-guest">Guests</label>
+					  <select id="no-of-guest" name="no-of-guest">
+					    <option value="1-person">1 person</option>
+					    <option value="2-person">2 person</option>
+					    <option value="3-person">3 person</option>
+					    <option value="4-person">4 person</option>
+					  </select>
+					</div>
+					<div class="sec-1">
+					  <label for="start-date">Check in-Check out</label>
+					  <input type="text" id="datepicker" name="daterange" value="06/01/2022 - 01/15/2025" />
+	
+					</div>
+					  <input type="submit" id="search" value="Search Now">
+				</div>	
+			</form>
+		 </div>
+		 <div>
+				<p class="check-text2">from one day to three months, no minimum stay | *on bookings made before April 1st, 2022</p>
+		 </div>
+		</div>
+	</section>
+	<section>
+		<div class="seven-reasons-back-g">
+			<div class="container-wrap">
+				<div class="seven-Reasons">
+					<div>
+					    <h1 class="reasons-text">7 REASONS FOR ARIV COLIVING</h1>
+					</div>
+					<div class="reasons-details">
+						<div class="reason">
+							<div class="icon-gap">
+								<img src="image/reason1.svg">
+							</div>
+							<div>
+								<p class="reason-inside-text">Connection to an international, active community</p>
+							</div>
+						</div>
+						<div class="reason">
+							<div class="icon-gap">
+								<img src="image/reason2.svg">
+							</div>
+							<div>
+								<p class="reason-inside-text">Community manager as contact for all questions of everyday life</p>
+							</div>
+						</div>
+						<div class="reason">
+							<div class="icon-gap">
+								<img src="image/reason3.svg">
+							</div>
+							<div>
+								<p class="reason-inside-text">High-quality equipment & reliable service quality</p>
+							</div>
+						</div>
+						<div class="reason">
+							<div class="icon-gap">
+								<img src="image/reason4.svg">
+							</div>
+							<div>
+								<p class="reason-inside-text">Logistically favorable location & excellent connections</p>
+							</div>
+						</div>
+						<div class="reason">
+							<div class="icon-gap">
+								<img src="image/reason5.svg">
+							</div>
+							<div>
+								<p class="reason-inside-text">Local operator and personal contact</p>
+							</div>
+						</div>
+						<div class="reason">
+							<div class="icon-gap">
+								<img src="image/reason6.svg">
+							</div>
+							<div>
+								<p class="reason-inside-text">Flexible contract terms & individual<br> conditions</p>
+							</div>
+						</div>
+						<div class="reason">
+							<div class="icon-gap">
+								<img src="image/reason7.svg">
+							</div>
+							<div>
+								<p class="reason-inside-text">Contribution to environmental<br> protection and the preservation of<br> inner-city districts</p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container-wrap">
+			<div class="row arive-full-section">
+				<div class="col-lg-8">
+					<div>
+						<img class="img-fluid" src="image/Arrive and start living.png">
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div>
+						<h1 class="box-head-text">ARRIVE AND<br> START LIVING</h1>
+					</div>
+					<div class="line"></div>
+					<div>
+						<p class="box-small-text">At Ariv, everything is ready for you from day<br> one. Discover our offer.</p>
+					</div>
+					<div>
+						<a href="#"><button class="Learn-more-button">Learn More</button></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container-wrap">
+			<div class="row your-living-room-full-section">
+				<div class="col-lg-8">
+					<div class="">
+						<img class="img-fluid" src="image/1500 Sqm living room.png">
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div>
+						<h1 class="box-head-text">YOUR 1,500 SQM<br> LIVING ROOM</h1>
+					</div>
+					<div class="line"></div>
+					<div>
+						<p class="box-small-text">Space for interesting people and exciting<br> conversations.</p>
+					</div>
+					<div>
+						<a href="#"><button class="Learn-more-button">Learn More</button></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="welcome-comfort-zone">
+			<div class="container-wrap">
+				<div class="contain-section">
+					<div class="">
+						<h1 class="comfortZone-text">WELCOME TO YOUR COMFORT ZONE</h1>
+					</div>
+					<div>
+						<p class="confort-small-text">All Ariv Suites at a glance</p>
+					</div>
+					<div>
+						<a href="#"><button class="Learn-more-button">Learn More</button></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container-wrap">
+			<div class="row gateway-urban-section">
+				<div class="col-lg-8">
+					<div>
+						<img class="img-fluid" src="image/Gateway_urban.png">
+					</div>
+				</div>
+				<div class="col-lg-4 justification-right">
+					<div>
+						<h1 class="box-head-text">YOUR GATEWAY TO URBAN SWITZERLAND</h1>
+					</div>
+					<div class="line"></div>
+					<div>
+						<p class="box-small-text">Ariv accommodation embodies authentic Swiss values: quality, innovation and closeness to nature. Everything - and that too is typically Swiss - with the highest standards of aesthetics and sustainability. With Ariv you can immerse yourself in life in Switzerland in no time. And the best thing is: you are not on your own. Together with our open and enterprising community you can discover the vibrant city life or the breathtaking nature.</p>
+					</div>
+					<div>
+						<a href="#"><button class="Learn-more-button">Learn More</button></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container-wrap">
+			<div class="row sustainability-from">
+				<div class="col-lg-4 sustainability-right">
+					<div>
+						<h1 class="box-head-text">SUSTAINABILITY FROM TRADITION</h1>
+					</div>
+					<div class="line"></div>
+					<div>
+						<p class="box-small-text">Nature is omnipresent in Switzerland and has determined life in this country since its inception. That's why we know how important sustainable living and acting are and at Ariv we set a good example.</p>
+					</div>
+					<div>
+						<a href="#"><button class="Learn-more-button">Learn More</button></a>
+					</div>
+				</div>
+				<div class="col-lg-8">
+					<div class="">
+						<img class="img-fluid" src="image/SUSTAINABILITY .png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+			<div class="f-back-g">
+				<div class="container-wrap">
+					<div class="row" id="f-row">
+						<div class="col-md-4">
+							<div>
+								<h3 class="ariv-footer-text1">Ariv – the Swiss Coliving project</h3>
+							</div>
+							<div>
+								  <p class="ariv-footer-text2">FUTURE LIVING AG<br>Ernst-Nobs-Platz 1<br>8004 Zürich</p>
+					   	    </div>
+					    </div>
+						<div class="col-md-4">
+							<ul class="ariv-contact">
+								<li class="ariv-phone"><a href="">+41 41 515 17 55</a></li>
+								<li class="ariv-email"><a href="">info@ariv.ch</a></li>
+							</ul>
+						</div>
+						<div class="col-md-4 f-list-item-text">
+							<ul class="f-list-item-text">
+								<li><a href="">Press</a></li>
+								<li><a href="">Jobs</a></li>
+								<li><a href="">FAQ</a></li>
+								<li><a href="">Terms of Service</a></li>
+								<li><a href="">Imprint Data Protection</a></li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+		    </div>
+		    <div class="f-back-g2">
+		    	<div class="container-wrap">
+		    		
+		    		<div class="row" id="#copy_right">
+			    			<div class="col-md-8">
+			    				<p class="copy-text">©2022 Future Living AG</p>
+			    		    </div>
+			    		    <div class="col-md-4">
+			    		    	<ul class="social-m">
+			    		    		<li><a href=""><img class="icon-size-insta" src="image/instagram.svg"></a></li>
+			    		    		<li><a href=""><img class="icon-size-fb" src="image/facebook.svg"></a></li>
+			    		    		<li><a href=""><img class="icon-size-ln" src="image/linkedIn.svg"></a></li>
+			    		    		<li><a href=""><img class="icon-size-tw" src="image/twitter.svg"></a></li>
+			    		    	</ul>
+			    		    </div>
+		    		</div>
+
+		    	</div>
+		    	
+		    </div>
+	</footer>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+	<script>
+		$(function() {
+		  $('input[name="daterange"]').daterangepicker({
+		    opens: 'left'
+		  }, function(start, end, label) {
+		    console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+		  });
+		});
+	</script>
+</body>
+</html>
