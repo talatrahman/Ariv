@@ -1,2 +1,1 @@
-# Ariv
 # Ariv-Home-page
